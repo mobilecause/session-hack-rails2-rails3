@@ -15,12 +15,12 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "session-hack-rails2-rails3"
-  gem.homepage = "http://github.com/mc-deploy/session-hack-rails2-rails3"
+  gem.homepage = "http://github.com/mobilecause/session-hack-rails2-rails3"
   gem.license = "MIT"
   gem.summary = %Q{Share browser session object between Rails2 and Rails3 apps}
   gem.description = %Q{Hackery to get Rails 2 and 3 to share a common session in the browser. }
   gem.email = "dev+gems@mobilecause.com"
-  gem.authors = ["MobileCause"]
+  gem.authors = ["mc-deploy"]
   gem.files = Dir.glob('lib/**/*.rb')
   # dependencies defined in Gemfile
 end
